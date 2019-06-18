@@ -20,7 +20,7 @@ length = len(RM_names)
 # Connect to the database
 connection = ea.connect()
 
-# Directory to save output from query and any filename prefixes
+# Directory to save output from query and any filename prefixes to identify your query.
 outLoc = "query/DESY6_"
 
 # Now loop through the sources and search for the relevant data and save in the above directory as a .tab file
