@@ -42,6 +42,8 @@ numpy==1.15.2
 
 pandas==0.23.4
 
+easyaccess==1.4.6
+
 # Input Data
 
 ## Source Locations
