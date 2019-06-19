@@ -4,16 +4,16 @@ Dark Energy Survey needed for the OzDES RM program.  The resulting data
 tables are in the formed needed for use in the spectrophotometric 
 procedures ([OzDES_calibSpec](https://github.com/jhoormann/OzDES_calibSpec)).
 
-# Scripts
+## Scripts
 
-## OzDES_photoDownload.py
+### OzDES_photoDownload.py
 This code reads in a file with the location (RA and DEC) for all the
 sources provided.  It will query the DES database using easyaccess. The
 database query will search for entries which are within 0.00027 degrees
 from the provided RA and DEC. It saves the necessary data that the other
 scripts will use in order to make the photometric light curves.
 
-## OzDES_photoPrep.py
+### OzDES_photoPrep.py
 This code reads in the tables downloaded from the DES database.  The data is 
 cleaned, magnitudes are calculated from the fluxes/zeropoints, and outliers
 are rejected.  The resulting magnitudes are combined based on observation date.
@@ -23,7 +23,7 @@ You also have the option to combine the newly processed data with any archived
 light curves you may have.  The resulting light curves are saved as data tables
 and, if the plotFlag = True, the light curves are also saved as .png files.
 
-## OzDES_photoCalc.py
+### OzDES_photoCalc.py
 This file contains all the functions that are called as part of the OzDES_photoPrep.py
 script.
 
