@@ -1,6 +1,8 @@
 # OzDES_getPhoto
-Here are scripts to download and process the photometry data from the
-Dark Energy Survey for use with the OzDES RM program.
+Here are scripts to download and process the photometric data from the
+Dark Energy Survey needed for the OzDES RM program.  The resulting data
+tables are in the formed needed for use in the spectrophotometric 
+procedures [OzDES_calibSpec](https://github.com/jhoormann/OzDES_calibSpec)
 
 # Scripts
 
@@ -10,6 +12,9 @@ sources provided.  It will query the DES database using easyaccess. The
 database query will search for entries which are within 0.00027 degrees
 from the provided RA and DEC. It saves the necessary data that the other
 scripts will use in order to make the photometric light curves.
+
+## OzDES_photoPrep.py
+This code reads in the tables downloaded from the DES database 
 
 # Run Requirements
 OzDES_photoDownload.py connects to the DES database using easyaccess
