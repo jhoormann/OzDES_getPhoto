@@ -44,11 +44,7 @@ pandas==0.23.4
 
 easyaccess==1.4.6
 
-To execute just do 
->> python OzDES_photoDownload.py
-to download the data from the database or
->> python OzDES_photoPrep.py
-to clean the data.
+To execute just execute >> python OzDES_photoDownload.py to download the data from the database or >> python OzDES_photoPrep.py to clean the data.
 
 # Input Data
 
