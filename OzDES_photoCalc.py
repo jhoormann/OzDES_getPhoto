@@ -224,6 +224,7 @@ def coaddDates(data, calibFlag):
 # Function to make figures pretty.                   #
 # -------------------------------------------------- #
 
+
 title_font = {'size': '22', 'color': 'black', 'weight': 'normal', 'verticalalignment': 'bottom'}
 axis_font = {'size': '22'}
 
