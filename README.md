@@ -32,3 +32,5 @@ will be saved in a table as prefix + ID + .tab where ID is given in the
 source locations file and the prefix (output directory/any desired query
 identification) is specified in the code.
 
+## Light Curve Data Tables
+
