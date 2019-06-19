@@ -32,6 +32,16 @@ OzDES_photoDownload.py connects to the DES database using easyaccess
 (https://github.com/mgckind/easyaccess) which will need to be installed
 prior to use.
 
+The code was tested using the following (as stated in requirements.txt)
+
+python==3.5.6
+
+matplotlib==2.2.2
+
+numpy==1.15.2
+
+pandas==0.23.4
+
 # Input Data
 
 ## Source Locations
