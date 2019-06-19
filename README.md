@@ -12,7 +12,7 @@ from the provided RA and DEC. It saves the necessary data that the other
 scripts will use in order to make the photometric light curves.
 
 # Run Requirements
-This code connects to the DES database using easyaccess
+OzDES_photoDownload.py connects to the DES database using easyaccess
 (https://github.com/mgckind/easyaccess) which will need to be installed
 prior to use.
 
