@@ -1,7 +1,7 @@
 # OzDES_getPhoto
 Here are scripts to download and process the photometric data from the
 Dark Energy Survey needed for the OzDES RM program.  The resulting data
-tables are in the formed needed for use in the spectrophotometric 
+tables are in the formed needed for use in the OzDES spectrophotometric 
 procedures ([OzDES_calibSpec](https://github.com/jhoormann/OzDES_calibSpec)).
 
 ## Scripts
@@ -44,6 +44,12 @@ pandas==0.23.4
 
 easyaccess==1.4.6
 
+To execute just do 
+>> python OzDES_photoDownload.py
+to download the data from the database or
+>> python OzDES_photoPrep.py
+to clean the data.
+
 # Input Data
 
 ## Source Locations
@@ -58,7 +64,17 @@ called in the OzDES_photoDownload.py script.
 The results from the database query performed in OzDES_photoDownload.py
 will be saved in a table as prefix + ID + .tab where ID is given in the
 source locations file and the prefix (output directory/any desired query
-identification) is specified in the code.
+identification) is specified in the code.  These files are then read into
+OzDES_photoPrep.py to be cleaned.
 
-## Light Curve Data Tables
+## Lightcurve Data Tables
+The results from the OzDES_photoPrep.py are saved in a table as prefix + ID
++ \_lc.dat where prefix is the output directory specified in the script.
+The data is saved with four columns: date, magnitude, magnitude error, and
+band.  The data is saved in accending order based on date and grouped by band.
+This is the format that the rest of the OzDES RM scripts assume the lightcurve
+data tables will take the form of.
 
+## Lightcurve Figures
+If saveFig = True then a figure (prefix + ID + \_lightcurve.png) which includes 
+light curves for bands will be generated and saved.
