@@ -1,8 +1,15 @@
+# ---------------------------------------------------------- #
+# ------------------ OzDES_photoDownload.py ---------------- #
+# ------- https://github.com/jhoormann/OzDES_getPhoto ------ #
+# ---------------------------------------------------------- #
+# This is a simple script which will query the DES database, #
+# searching for sources based on RA and DEC, and pulls       #
+# the relevant info to get photometric light curves needed   #
+# for the OzDES RM analysis.                                 #
+# ---------------------------------------------------------- #
+
 import numpy as np
 import easyaccess as ea
-
-# This is a simple script which will query the DES database, searching for sources based on RA and DEC, and pulls
-# the relevant info to get photometric light curves needed for the OzDES RM analysis.
 
 # This code connects to the DES database using easyaccess (https://github.com/mgckind/easyaccess) which will need to be
 # installed prior to use.
