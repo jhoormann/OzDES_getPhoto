@@ -1,3 +1,14 @@
+# ---------------------------------------------------------- #
+# -------------------- OzDES_photoPrep.py ------------------ #
+# ------- https://github.com/jhoormann/OzDES_getPhoto ------ #
+# ---------------------------------------------------------- #
+# This code will take the data downloaded from               #
+# OzDES_downloadPhoto.py and clean it up into light curves   #
+# that can be used for the rest of the OzDES RM analysis.    #
+# Unless otherwise noted this code was written by Janie      #
+# Hoormann.                                                  #
+# ---------------------------------------------------------- #
+
 import numpy as np
 import pandas as pd
 import OzDES_photoCalc as phCalc
