@@ -5,6 +5,7 @@
 # This code will take the data downloaded from               #
 # OzDES_downloadPhoto.py and clean it up into light curves   #
 # that can be used for the rest of the OzDES RM analysis.    #
+# The functions called are defined in OzDES_photoCalc.py.    #
 # Unless otherwise noted this code was written by Janie      #
 # Hoormann.                                                  #
 # ---------------------------------------------------------- #
