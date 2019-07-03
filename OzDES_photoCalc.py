@@ -1,3 +1,13 @@
+# ---------------------------------------------------------- #
+# -------------------- OzDES_photoCalc.py ------------------ #
+# ------- https://github.com/jhoormann/OzDES_getPhoto ------ #
+# ---------------------------------------------------------- #
+# This code contains all of the functions called in          #
+# OzDES_photoPrep to clean and make the photometric light    #
+# curves.  Unless otherwise noted this code was written by   #
+# Janie Hoormann.                                            #
+# ---------------------------------------------------------- #
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
