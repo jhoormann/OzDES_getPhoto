@@ -74,3 +74,7 @@ data tables will take the form of.
 ## Lightcurve Figures
 If saveFig = True then a figure (prefix + ID + \_lightcurve.png) which includes 
 light curves for bands will be generated and saved.
+
+# Reference
+If you are using this code please cite the paper where this procedure was first presented and link to this github repository,
+[Hoormann et al 2019, MNRAS 487, 3:3650](https://ui.adsabs.harvard.edu/abs/2019MNRAS.487.3650H/abstract)
