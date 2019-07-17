@@ -2,7 +2,7 @@
 Here are scripts to download and process the photometric data from the
 Dark Energy Survey needed for the OzDES RM program.  The resulting data
 tables are in the formed needed for use in the OzDES spectrophotometric 
-procedures ([OzDES_calibSpec](https://github.com/jhoormann/OzDES_calibSpec)).
+procedures ([OzDES_calibSpec](https://github.com/jhoormann/OzDES_calibSpec)) and can be converted to flux light curves using the [OzDES_makeLC](https://github.com/jhoormann/OzDES_makeLC) scripts.  
 
 ## Scripts
 
